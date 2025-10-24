@@ -50,7 +50,12 @@ git remote add origin https://github.com/Ramalho1/paginaweb.git   (CONECTA A PAS
 		ANTES DESSA PARTE ABAIXO, PODE SER QUE ELE SOLICITE ENTRAR NA SUA CONTA. CLIQUE PRA ENTRA "WITH" O BROWSER
 
 
-git branch -M main  (ENVIAR OS ARQUIVOS... QUE É FAZER O PUSH)
+git branch -M main  (ENVIAR OS ARQUIVOS... QUE É FAZER O PUSH) Só se faz uma vez
 
 git push -u origin main  (Somente aqui os arquivos são enviados)
+Sempre usaremos essa ultima etapa...
+A sequência é:
+git add .
+git commit -m
+git push
 
