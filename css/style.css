@@ -1,0 +1,34 @@
+/*seletor {
+    propriedade: valor;
+    propriedade-2: valor-2;
+}*/
+
+/* Remove margens e preenchimentos padrão do navegador */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;/*navegadores aplicam diferentes espaçamentos padrão*/
+            /*então zeramos o estilo padrão*/
+}
+
+/* 2. Estilizando o CORPO da página */
+body {
+    background-color: #1e1e1e; /* Cor de fundo escura*/
+    color: #e0e0e0;            /* Cor do texto, cinza claro */
+    font-family: sans-serif;   /* Uma fonte moderna e legível */
+}
+
+/* 3. Estilizando o CABEÇALHO */
+header {
+    background-color: #0d0d0d; /* Fundo mais escuro para o topo */
+    padding: 20px;     /* Espaçamento interno, sintaxe(topoBAse/esquerdaDiretia)*/
+                        /*porém, neste caso, só colocamos 20px e não :0 20px*/
+    text-align: center;        /* Texto centralizado */
+    border-bottom: 5px solid #cc0000; /* Linha vermelha para destaque rock */
+}
+
+/* 4. Estilizando Títulos */
+h1 {
+    color: #ff0000; /* Vermelho vibrante para o título principal */
+    font-size: 2.5em; /* Tamanho da fonte grande */
+    margin-bottom: 50px; /*espaçamento embaixo*/
+}
