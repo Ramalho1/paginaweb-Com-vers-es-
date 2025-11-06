@@ -32,9 +32,9 @@ Você deve ver algo como:
 user.name=André Ramalho
 user.email=andreramalho@gmail.com
 
-				Etapa 3 — Refaça o commit
+				Etapa 3 — faça o commit
 
-Agora volte para sua pasta do projeto (primeiro) e repita:
+Vá na pasta do projeto e repita:
 
 git add .
 git commit -m "primeira versão"

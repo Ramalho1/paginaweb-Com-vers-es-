@@ -32,3 +32,23 @@ h1 {
     font-size: 2.5em; /* Tamanho da fonte grande */
     margin-bottom: 50px; /*espaçamento embaixo*/
 }
+
+        /*contêiner pai*/
+nav {
+/* Transforma o elemento em um contêiner flexível */
+display: flex;
+/*Alinhamento principal-centraliza os itens horizontalmente*/
+justify-content: center;
+padding: 10px 0; /*espaçamento interno em cima e embaixo*/
+}
+    /*estilizando os links (os filhos)*/
+    nav a{
+    color: #e0e0e0; /*cor de texto dos links*/
+    text-decoration: none; /*remove sublinhado padrão do link*/
+    margin: 0 15px; /*espaçamento entre links(15px para esquerda e direita)*/
+    font-weight: bold; /*deixa texto em negrito*/
+    }
+    
+    nav a:hover {
+    color: #cc0000; /*vor vermelha quando passa o mouse*/
+    }
